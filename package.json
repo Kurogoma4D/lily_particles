@@ -1,0 +1,29 @@
+{
+  "name": "lily_particles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kurogoma4D/lily_particles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kurogoma4D/lily_particles/issues"
+  },
+  "homepage": "https://github.com/Kurogoma4D/lily_particles#readme",
+  "dependencies": {
+    "three": "^0.125.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
